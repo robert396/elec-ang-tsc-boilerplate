@@ -1,0 +1,24 @@
+{
+  "name": "elec-ang-tsc",
+  "description": "An Electron Boilerplate framework using Angular and Typescript",
+  "main": "main.js",
+  "authors": [
+    "Robert Cloutman <cloutman.robert@gmail.com>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/robert396/elec-ang-tsc-boilerplate",
+  "moduleType": [
+    "node"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular": "^1.5.0",
+    "angular-ui-router": "^0.2.18"
+  }
+}

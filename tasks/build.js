@@ -24,6 +24,8 @@ var copyStaticFiles = function () {
   projectDir.copy("app", buildDir.path(), {
      overwrite: true,
      matching: [
+         "./node_modules/**",
+         "./bower_components/**",
          "./renderer/**/*.html",
      ] 
   });

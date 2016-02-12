@@ -3,8 +3,16 @@
         <title>Electron Boilerplate</title>
     </head>
     <body>
-        <div>
-            <h1>Welcome</h1>
+        <div ng-app="myApp" ng-cloak>
+            <div ui-view></div>
         </div>
+        
+        <script>window.$ = window.jQuery = require("jquery");</script>
+        <script src="../bower_components/angular/angular.js"></script>
+        <script src="../bower_components/angular-ui-router/release/angular-ui-router.js"></script>
+        
+        <script src="router.js"></script>
+        <script src="areas/home/homeCtrl.js"></script>
+        <script src="bootstrapper.js"></script>
     </body>
 </html>
