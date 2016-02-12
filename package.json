@@ -4,7 +4,9 @@
   "description": "An Electron Boilerplate framework using Angular and Typescript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prestart": "gulp build",
+    "start": "node_modules/.bin/electron ./build"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/robert396/elec-ang-tsc-boilerplate/issues"
   },
-  "homepage": "https://github.com/robert396/elec-ang-tsc-boilerplate#readme"
+  "homepage": "https://github.com/robert396/elec-ang-tsc-boilerplate#readme",
+  "devDependencies": {
+    "electron-prebuilt": "^0.36.7",
+    "fs-jetpack": "^0.7.1",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^2.11.0"
+  }
 }
