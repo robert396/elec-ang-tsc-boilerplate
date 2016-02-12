@@ -1,0 +1,19 @@
+{
+  "name": "elec-ang-tsc",
+  "version": "1.0.0",
+  "description": "An Electron Boilerplate framework using Angular and Typescript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robert396/elec-ang-tsc-boilerplate.git"
+  },
+  "author": "Robert Cloutman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robert396/elec-ang-tsc-boilerplate/issues"
+  },
+  "homepage": "https://github.com/robert396/elec-ang-tsc-boilerplate#readme"
+}
