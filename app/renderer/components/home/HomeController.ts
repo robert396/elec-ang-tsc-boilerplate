@@ -1,15 +1,15 @@
 /// <reference path="../../_all.d.ts" />
 
-module myApp {
+module MyApp.Controllers {
     "use strict";
     
-    export class HomeCtrl {
+    export class HomeController  {
         static $inject = ["$scope"];
         
         constructor($scope: ng.IScope) {
-            var self = this;
+            var _self = this;
             
-            $scope["getGreeting"] = self.getGreeting;
+            $scope["getGreeting"] = _self.getGreeting;
         }
         
         public getGreeting(): string {

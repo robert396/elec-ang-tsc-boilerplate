@@ -1,15 +1,15 @@
 /// <reference path="_all.d.ts" />
 
-module myApp {
+module MyApp {
     "use strict";
     
     export class Router {
         constructor($stateProvider: ng.ui.IStateProvider, $urlRouterProvider: ng.ui.IUrlRouterProvider) {
             $stateProvider.state("root", {
                 url: "/",
-                templateUrl: "areas/home/_index.html",
+                templateUrl: "components/home/_index.html",
                 controller: "HomeController",
-                controllerAs: "homeCtrl"
+                controllerAs: "HomeController"
             });
             
             $urlRouterProvider.otherwise("/");
