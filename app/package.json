@@ -1,5 +1,6 @@
 {
   "name": "elec-ang-tsc",
+  "productName": "elec-ang-tsc",
   "version": "0.0.1",
   "description": "An Electron Boilerplate framework using Angular and Typescript",
   "main": "main.js",
